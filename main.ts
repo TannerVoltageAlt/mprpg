@@ -3556,7 +3556,7 @@ mp.onButtonEvent(mp.MultiplayerButton.A, ControllerButtonEvent.Pressed, function
             . . b d 5 d 3 3 3 3 5 5 b b . . 
             . . . b b 5 5 5 5 5 5 b b . . . 
             . . . . . b b b b b b . . . . . 
-            `, mp.getPlayerSprite(player2), 0, -50)
+            `, mp.getPlayerSprite(player2), 0, 50)
     }
     if (characterAnimations.matchesRule(mp.getPlayerSprite(player2), characterAnimations.rule(Predicate.FacingLeft))) {
         projectile = sprites.createProjectileFromSprite(img`
@@ -3616,7 +3616,7 @@ mp.onButtonEvent(mp.MultiplayerButton.A, ControllerButtonEvent.Pressed, function
             . . b d 5 d 3 3 3 3 5 5 b b . . 
             . . . b b 5 5 5 5 5 5 b b . . . 
             . . . . . b b b b b b . . . . . 
-            `, mp.getPlayerSprite(player2), 0, 50)
+            `, mp.getPlayerSprite(player2), 0, -50)
     }
 })
 tileUtil.onMapLoaded(function (tilemap2) {

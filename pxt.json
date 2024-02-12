@@ -10,7 +10,7 @@
         "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
         "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1",
         "color-coded-tilemap": "*",
-        "Tanner startup": "github:tannervoltagealt/tanner-startup#master"
+        "Tanner startup": "github:tannervoltagealt/tanner-startup#v1.0.0"
     },
     "files": [
         "main.blocks",
